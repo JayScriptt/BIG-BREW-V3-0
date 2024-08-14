@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 0px 0px 5px black;
+}
+.container{
+
+    height:100vh;
+    width: 100vw;
+
+}
+.flexbox-container{
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main-menu-choices{
+    border: solid black 3px;
+    width: 45%;
+    height: 35%;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    margin: 5px;
+}
+.main-menu-choices p{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+    top: 48%;
+}
+
+/* IMAGES FOR MENU CHOICES */
+#b1{
+    background-image: url(main-menu-1.png);
+}#b2{
+    background-image: url(main-menu-2.png);
+}#b3{
+    background-image: url(main-menu-3.jpg);
+}#b4{
+    background-image: url(main-menu-4.png);
+}#b5{
+    background-image: url(main-menu-5.png);
+}#b6{
+    background-image: url(main-menu-6.png);
+}
